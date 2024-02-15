@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id ("kotlin-kapt")
     id ("androidx.navigation.safeargs.kotlin") // for safeArgs
+    id ("kotlin-parcelize") // for @parcelize annotation
 }
 
 android {
